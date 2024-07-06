@@ -70,3 +70,36 @@ button a {
 .image-section img {
   height: 250px;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.information h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+.box {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.box p {
+  margin-top: 10px;
+}
