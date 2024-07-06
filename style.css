@@ -32,6 +32,7 @@ ul a {
   background: #1f2937;
   display: flex;
   justify-content: center;
+  align-content: center;
   height: 500px;
 }
 .hero h1 {
@@ -51,7 +52,16 @@ ul a {
   background: #3882f6;
   color: #fff;
   width: 100px;
-  height: 25px;
+  height: 40px;
+  border-radius: 10px;
+  border: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
 }
 .image-section {
   margin-top: 100px;
