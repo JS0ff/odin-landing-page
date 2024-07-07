@@ -103,3 +103,27 @@ button a {
 .box p {
   margin-top: 10px;
 }
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 425px;
+  background: #e5e7eb;
+  flex-direction: column;
+}
+.quote blockquote {
+  width: 875px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+cite {
+  align-self: flex-end;
+  margin-right: 350px;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: normal;
+}
