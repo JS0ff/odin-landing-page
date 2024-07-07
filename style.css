@@ -127,3 +127,32 @@ cite {
   font-size: 22px;
   font-style: normal;
 }
+
+.signup {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.calltoaction {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #3882f6;
+  width: 1000px;
+  height: 120px;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+}
+.calltoaction button {
+  width: 100px;
+  height: 30px;
+  border: #f9faf8 solid;
+  border-radius: 5px;
+  color: #f9faf8;
+  background: #3882f6;
+  font-size: 16px;
+}
